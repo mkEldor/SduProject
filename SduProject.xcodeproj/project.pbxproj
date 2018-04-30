@@ -14,6 +14,15 @@
 		7F4F238A209788E6004DBAE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F4F2388209788E6004DBAE9 /* LaunchScreen.storyboard */; };
 		7F4F2395209788E7004DBAE9 /* SduProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4F2394209788E7004DBAE9 /* SduProjectTests.swift */; };
 		7F4F23A0209788E7004DBAE9 /* SduProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4F239F209788E7004DBAE9 /* SduProjectUITests.swift */; };
+		7F4F23AF209789D3004DBAE9 /* ClubsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4F23AE209789D3004DBAE9 /* ClubsController.swift */; };
+		7F4F23B120978A74004DBAE9 /* InfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4F23B020978A74004DBAE9 /* InfoController.swift */; };
+		7F4F23B720978B2F004DBAE9 /* FacultyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4F23B620978B2F004DBAE9 /* FacultyController.swift */; };
+		7F4F23B920978B5D004DBAE9 /* FacultyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4F23B820978B5D004DBAE9 /* FacultyCell.swift */; };
+		7F4F23BC20978C12004DBAE9 /* FeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4F23BB20978C12004DBAE9 /* FeedController.swift */; };
+		7F4F23BE20978C52004DBAE9 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4F23BD20978C52004DBAE9 /* FeedCell.swift */; };
+		7F4F23C120978C81004DBAE9 /* GalleryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4F23C020978C81004DBAE9 /* GalleryController.swift */; };
+		7F4F23C320978CBA004DBAE9 /* ImagePreviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4F23C220978CBA004DBAE9 /* ImagePreviewVC.swift */; };
+		7F4F23C520978F53004DBAE9 /* ClubCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4F23C420978F53004DBAE9 /* ClubCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +56,15 @@
 		7F4F239B209788E7004DBAE9 /* SduProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SduProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F4F239F209788E7004DBAE9 /* SduProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SduProjectUITests.swift; sourceTree = "<group>"; };
 		7F4F23A1209788E7004DBAE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F4F23AE209789D3004DBAE9 /* ClubsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubsController.swift; sourceTree = "<group>"; };
+		7F4F23B020978A74004DBAE9 /* InfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoController.swift; sourceTree = "<group>"; };
+		7F4F23B620978B2F004DBAE9 /* FacultyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacultyController.swift; sourceTree = "<group>"; };
+		7F4F23B820978B5D004DBAE9 /* FacultyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacultyCell.swift; sourceTree = "<group>"; };
+		7F4F23BB20978C12004DBAE9 /* FeedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedController.swift; sourceTree = "<group>"; };
+		7F4F23BD20978C52004DBAE9 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		7F4F23C020978C81004DBAE9 /* GalleryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryController.swift; sourceTree = "<group>"; };
+		7F4F23C220978CBA004DBAE9 /* ImagePreviewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePreviewVC.swift; sourceTree = "<group>"; };
+		7F4F23C420978F53004DBAE9 /* ClubCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +115,10 @@
 		7F4F237E209788E6004DBAE9 /* SduProject */ = {
 			isa = PBXGroup;
 			children = (
+				7F4F23BF20978C6E004DBAE9 /* Gallery */,
+				7F4F23BA20978BF3004DBAE9 /* Feeds */,
+				7F4F23B520978B13004DBAE9 /* Faculties */,
+				7F4F23AD2097894B004DBAE9 /* Clubs */,
 				7F4F237F209788E6004DBAE9 /* AppDelegate.swift */,
 				7F4F2381209788E6004DBAE9 /* ViewController.swift */,
 				7F4F2383209788E6004DBAE9 /* Main.storyboard */,
@@ -123,6 +145,43 @@
 				7F4F23A1209788E7004DBAE9 /* Info.plist */,
 			);
 			path = SduProjectUITests;
+			sourceTree = "<group>";
+		};
+		7F4F23AD2097894B004DBAE9 /* Clubs */ = {
+			isa = PBXGroup;
+			children = (
+				7F4F23AE209789D3004DBAE9 /* ClubsController.swift */,
+				7F4F23B020978A74004DBAE9 /* InfoController.swift */,
+				7F4F23C420978F53004DBAE9 /* ClubCell.swift */,
+			);
+			path = Clubs;
+			sourceTree = "<group>";
+		};
+		7F4F23B520978B13004DBAE9 /* Faculties */ = {
+			isa = PBXGroup;
+			children = (
+				7F4F23B620978B2F004DBAE9 /* FacultyController.swift */,
+				7F4F23B820978B5D004DBAE9 /* FacultyCell.swift */,
+			);
+			path = Faculties;
+			sourceTree = "<group>";
+		};
+		7F4F23BA20978BF3004DBAE9 /* Feeds */ = {
+			isa = PBXGroup;
+			children = (
+				7F4F23BB20978C12004DBAE9 /* FeedController.swift */,
+				7F4F23BD20978C52004DBAE9 /* FeedCell.swift */,
+			);
+			path = Feeds;
+			sourceTree = "<group>";
+		};
+		7F4F23BF20978C6E004DBAE9 /* Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				7F4F23C020978C81004DBAE9 /* GalleryController.swift */,
+				7F4F23C220978CBA004DBAE9 /* ImagePreviewVC.swift */,
+			);
+			path = Gallery;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +318,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F4F23C120978C81004DBAE9 /* GalleryController.swift in Sources */,
 				7F4F2382209788E6004DBAE9 /* ViewController.swift in Sources */,
 				7F4F2380209788E6004DBAE9 /* AppDelegate.swift in Sources */,
+				7F4F23AF209789D3004DBAE9 /* ClubsController.swift in Sources */,
+				7F4F23C320978CBA004DBAE9 /* ImagePreviewVC.swift in Sources */,
+				7F4F23B920978B5D004DBAE9 /* FacultyCell.swift in Sources */,
+				7F4F23B720978B2F004DBAE9 /* FacultyController.swift in Sources */,
+				7F4F23B120978A74004DBAE9 /* InfoController.swift in Sources */,
+				7F4F23C520978F53004DBAE9 /* ClubCell.swift in Sources */,
+				7F4F23BC20978C12004DBAE9 /* FeedController.swift in Sources */,
+				7F4F23BE20978C52004DBAE9 /* FeedCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
